@@ -11,10 +11,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
 
 public class ClgWeekLive {
 
-	public static void main(String[] args) throws Exception {
+	@Test
+	public void f() throws Exception {
 		WebDriver driver;
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -31,7 +33,7 @@ public class ClgWeekLive {
 
 		
 		driver.get(url);		
-		Thread.sleep(5000);		
+		Thread.sleep(9000);		
 		// Edibox
 		driver.findElement(By.xpath("//*[@id='firstName']")).sendKeys(firstName);		
 		//dropdown

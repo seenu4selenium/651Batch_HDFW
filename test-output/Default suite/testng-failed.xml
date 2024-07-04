@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testscenarios.ReadTestDataFromExcelFile_FB_retesting">
+      <class name="com.testscenarios.ClgWeekLive">
         <methods>
           <include name="f"/>
-          <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.testscenarios.ReadTestDataFromExcelFile_FB_retesting -->
+      </class> <!-- com.testscenarios.ClgWeekLive -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
